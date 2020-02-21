@@ -1,8 +1,5 @@
 """
-TIE-02106 Introduction to Programming, Spring 2018
-Anik Das, anik.das@student.tut.fi, student no: 272500
-Nekhel Das, nekhel.das@student.tut.fi, student no: 267672
-Solution of task 9.7: Friendship Network
+
 A tool program for analyzing friendship networks.
 
 """
@@ -35,11 +32,6 @@ def read_friendship_network(filename):
 
     network = {}
 
-
-    ###################################################
-    #  ÄLÄ MUUTA TÄTÄ FUNKTIOTA TÄMÄN RIVIN JÄLKEEN!  #
-    #  DO NOT MODIFY THIS FUNCTION AFTER THIS LINE!   #
-    ###################################################
 
     try:
         with open(filename, mode="r") as fileobj:
@@ -93,10 +85,6 @@ def user_interface(network):
     :return: None
     """
 
-    ##################################
-    #  ÄLÄ MUUTA TÄTÄ FUNKTIOTA!     #
-    #  DO NOT MODIFY THIS FUNCTION!  #
-    ##################################
 
     while True:
         print()
@@ -251,10 +239,7 @@ def add_command(network, namelist):
     :return: None
     """
 
-    ##################################
-    #  ÄLÄ MUUTA TÄTÄ FUNKTIOTA!     #
-    #  DO NOT MODIFY THIS FUNCTION!  #
-    ##################################
+
 
     if len(namelist) < 2:
         print("Error: [Aa]dd command requires minimum two names.")
@@ -397,10 +382,7 @@ def common_friends_command(network, namelist):
 
 
 def main():
-    ##################################
-    #  ÄLÄ MUUTA TÄTÄ FUNKTIOTA!     #
-    #  DO NOT MODIFY THIS FUNCTION!  #
-    ##################################
+
 
     filename = input("Enter the name of the input file: ")
 
